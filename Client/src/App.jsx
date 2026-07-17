@@ -7,7 +7,7 @@ import Profilepage from "./pages/Profilepage.jsx";
 import { AuthContext } from "./context/AuthContext";
 
 import { Toaster } from "react-hot-toast";
-import bgImage from "./assets/bgimage.svg";
+import bgImage from "./assets/bgImage.svg";
 
 const App = () => {
   const { authUser } = useContext(AuthContext);
@@ -30,10 +30,10 @@ const App = () => {
           element={!authUser ? <Loginpage /> : <Navigate to="/" />}
         />
 
-       <Route
-  path="/profile"
-  element={<Profilepage />}
-/>
+        <Route
+          path="/profile"
+          element={<Profilepage />}
+        />
       </Routes>
     </div>
   );
