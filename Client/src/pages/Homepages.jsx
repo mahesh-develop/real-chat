@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Sidebar from '../Components/Sidebar'
 import ChatContainer from '../Components/ChatContainer'
 import RightSidebar from '../Components/RightSidebar'
