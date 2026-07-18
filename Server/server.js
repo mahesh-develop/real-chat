@@ -52,6 +52,10 @@ app.use("/api/status", (req, res) => res.send("Server is live"));
 app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRoutes);
 
+app.get("/", (req, res) => {
+    res.send("Server is running successfully");
+});
+
 // connect mongo
 await connectDB();
 
