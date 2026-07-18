@@ -3,7 +3,7 @@ import Sidebar from '../Components/Sidebar'
 import ChatContainer from '../Components/ChatContainer'
 import RightSidebar from '../Components/RightSidebar'
 import { useContext } from 'react'
-import { ChatContext } from '../context/ChatContext'
+import { ChatContext } from '../context/Chatcontext'
 
 const HomePage = () => {
 
